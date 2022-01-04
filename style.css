@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+/* top banner kaaj shuru  */
+
+.top-banner {
+  display: flex;
+  padding-left: 20px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1 span {
+  color: tomato;
+  line-height: 10px;
+}
+
+h2 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Lora", serif;
+  margin-bottom: 30px;
+}
+
+a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  padding: 12px 25px;
+  font-weight: 600;
+
+  background-image: linear-gradient(90deg, rgb(231, 35, 35), rgb(255, 137, 69));
+}
+
+.half-width {
+  width: 50%;
+}
+
+.introduce-part {
+  margin-top: 150px;
+  width: 45%;
+  padding-left: 20px;
+}
+
+.half-width img {
+  width: 70%;
+  margin-left: 30%;
+  padding-top: 20px;
+}
+
+/* top banner kaaj sesh ekhane */
+
+/* middle banner er kaaj shuru */
+
+.middle-section {
+  display: flex;
+  padding-right: 40px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 120px;
+}
+
+.mdl-img {
+  width: 70%;
+  margin-right: 200px;
+}
+
+.mdl-intro-part {
+  margin-top: 120px;
+}
+
+/* middle banner er kaaj sesh */
+
+/* experience banner er kaaj shuru */
+article {
+  margin-bottom: 120px;
+}
+article h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: tomato;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: tomato;
+}
+
+article p {
+  font-size: 16px;
+}
+
+.experience-sector {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: -20px 60px;
+}
+
+.exp-card {
+  width: 45%;
+  border-radius: 10px;
+  padding: 40px 20px;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.288);
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, tomato, rgba(236, 26, 131, 0.986)) 10%;
+}
+
+/* experience banner er kaaj sesh */
+
+/* footer er kaaj shuru ekhan theke */
+footer p {
+  text-align: center;
+  font-size: 18px;
+}
+/* footer er kaaj sesh ekhan theke */
